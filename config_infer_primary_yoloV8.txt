@@ -24,15 +24,7 @@ cluster-mode=4
 maintain-aspect-ratio=1
 symmetric-padding=1
 
-# YOLO parser
 parse-bbox-func-name=NvDsInferParseYolo
 custom-lib-path=nvdsinfer_custom_impl_Yolo/libnvdsinfer_custom_impl_Yolo.so
-engine-create-func-name=NvDsInferYoloCudaEngineGet
 
-# REQUIRED FOR YOLOv8
-yolo-type=8
-
-[class-attrs-all]
-pre-cluster-threshold=0.001
-nms-iou-threshold=0.45
-topk=300
+output-blob-names=output0
