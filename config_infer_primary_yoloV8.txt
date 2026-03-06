@@ -3,6 +3,7 @@ gpu-id=0
 net-scale-factor=0.0039215697906911373
 model-color-format=0
 
+onnx-file=models/best.onnx
 model-engine-file=models/best.engine
 labelfile-path=labels.txt
 
