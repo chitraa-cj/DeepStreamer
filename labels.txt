@@ -1,1 +1,5 @@
-defect
+spring
+wheel
+support beam
+platform
+flange
