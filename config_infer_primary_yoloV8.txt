@@ -18,7 +18,10 @@ interval=0
 gie-unique-id=1
 process-mode=1
 network-type=0
-cluster-mode=2
+
+# IMPORTANT FOR YOLOv8
+cluster-mode=4
+
 maintain-aspect-ratio=1
 symmetric-padding=1
 
@@ -27,6 +30,6 @@ custom-lib-path=nvdsinfer_custom_impl_Yolo/libnvdsinfer_custom_impl_Yolo.so
 engine-create-func-name=NvDsInferYoloCudaEngineGet
 
 [class-attrs-all]
-pre-cluster-threshold=0.05
+pre-cluster-threshold=0.01
 nms-iou-threshold=0.45
 topk=300
